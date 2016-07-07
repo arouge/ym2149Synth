@@ -16,6 +16,10 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    
+    ym2149Synth *psgSynthInstance;
+    psgSynthInstance = [[ym2149Synth alloc] init];
+    
     // Insert code here to initialize your application
 }
 

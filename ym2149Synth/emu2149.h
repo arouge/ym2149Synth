@@ -1,7 +1,7 @@
 /* emu2149.h */
 #ifndef _EMU2149_H_
 #define _EMU2149_H_
-#include "emutypes.h"
+#import "emutypes.h"
 
 #ifdef EMU2149_DLL_EXPORTS
 #define EMU2149_API __declspec(dllexport)
@@ -22,8 +22,7 @@ extern "C"
 {
 #endif
 
-	double testeur[3];
-	int resultat[3];
+   
   typedef struct __PSG
   {
 

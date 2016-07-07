@@ -19,12 +19,11 @@
     AY-3-8910 data sheet
     
 *****************************************************************************/
-#include <stdio.h>
-#include <stdlib.h>
-//#include <string.h>
-#include "emu2149.h"
-#include <math.h>
-#include <time.h>
+//#import <stdio.h>
+#import <stdlib.h>
+#import "emu2149.h"
+#import <math.h>
+#import <time.h>
 
 static e_uint32 voltbl[2][32] = {
   {0x00, 0x01, 0x01, 0x02, 0x02, 0x03, 0x03, 0x04, 0x05, 0x06, 0x07, 0x09,

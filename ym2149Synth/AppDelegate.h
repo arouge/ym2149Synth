@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "ym2149Synth.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
