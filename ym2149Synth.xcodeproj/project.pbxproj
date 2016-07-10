@@ -11,9 +11,9 @@
 		1A7643E51D2E5472007A7FFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7643E41D2E5472007A7FFB /* main.m */; };
 		1A7643E71D2E5472007A7FFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A7643E61D2E5472007A7FFB /* Assets.xcassets */; };
 		1A7643EA1D2E5472007A7FFB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7643E81D2E5472007A7FFB /* MainMenu.xib */; };
-		1A7643F31D2E549E007A7FFB /* emu2149.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A7643F11D2E549E007A7FFB /* emu2149.c */; };
 		1A7643F81D2E54F5007A7FFB /* CAOutputUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7643F71D2E54F5007A7FFB /* CAOutputUnit.m */; };
-		1A7644011D2E55C6007A7FFB /* ym2149.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7644001D2E55C6007A7FFB /* ym2149.m */; };
+		782001851D2EEB0000D0FE67 /* ym2149Synth.m in Sources */ = {isa = PBXBuildFile; fileRef = 782001841D2EEB0000D0FE67 /* ym2149Synth.m */; };
+		782001881D31B03F00D0FE67 /* emu2149.c in Sources */ = {isa = PBXBuildFile; fileRef = 782001861D31B03F00D0FE67 /* emu2149.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,13 +24,13 @@
 		1A7643E61D2E5472007A7FFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A7643E91D2E5472007A7FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1A7643EB1D2E5472007A7FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A7643F11D2E549E007A7FFB /* emu2149.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = emu2149.c; sourceTree = "<group>"; };
-		1A7643F21D2E549E007A7FFB /* emu2149.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emu2149.h; sourceTree = "<group>"; };
 		1A7643F51D2E54D0007A7FFB /* emutypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = emutypes.h; sourceTree = "<group>"; };
 		1A7643F61D2E54F5007A7FFB /* CAOutputUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAOutputUnit.h; sourceTree = "<group>"; };
 		1A7643F71D2E54F5007A7FFB /* CAOutputUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAOutputUnit.m; sourceTree = "<group>"; };
-		1A7643FF1D2E55C6007A7FFB /* ym2149.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym2149.h; sourceTree = "<group>"; };
-		1A7644001D2E55C6007A7FFB /* ym2149.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ym2149.m; sourceTree = "<group>"; };
+		782001831D2EEB0000D0FE67 /* ym2149Synth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ym2149Synth.h; sourceTree = "<group>"; };
+		782001841D2EEB0000D0FE67 /* ym2149Synth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ym2149Synth.m; sourceTree = "<group>"; };
+		782001861D31B03F00D0FE67 /* emu2149.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = emu2149.c; sourceTree = "<group>"; };
+		782001871D31B03F00D0FE67 /* emu2149.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emu2149.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +47,7 @@
 		1A7643D41D2E5472007A7FFB = {
 			isa = PBXGroup;
 			children = (
-				1A7643DF1D2E5472007A7FFB /* ym2149Synth */,
+				1A7643DF1D2E5472007A7FFB /* emu2212 */,
 				1A7643DE1D2E5472007A7FFB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,10 +60,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1A7643DF1D2E5472007A7FFB /* ym2149Synth */ = {
+		1A7643DF1D2E5472007A7FFB /* emu2212 */ = {
 			isa = PBXGroup;
 			children = (
-				1A7643F41D2E54A3007A7FFB /* ym2149 */,
+				1A7643F41D2E54A3007A7FFB /* ym2149Synth */,
 				1A7643E01D2E5472007A7FFB /* AppDelegate.h */,
 				1A7643E11D2E5472007A7FFB /* AppDelegate.m */,
 				1A7643E61D2E5472007A7FFB /* Assets.xcassets */,
@@ -71,6 +71,7 @@
 				1A7643EB1D2E5472007A7FFB /* Info.plist */,
 				1A7643E31D2E5472007A7FFB /* Supporting Files */,
 			);
+			name = emu2212;
 			path = ym2149Synth;
 			sourceTree = "<group>";
 		};
@@ -82,18 +83,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1A7643F41D2E54A3007A7FFB /* ym2149 */ = {
+		1A7643F41D2E54A3007A7FFB /* ym2149Synth */ = {
 			isa = PBXGroup;
 			children = (
-				1A7643FF1D2E55C6007A7FFB /* ym2149.h */,
-				1A7644001D2E55C6007A7FFB /* ym2149.m */,
+				782001861D31B03F00D0FE67 /* emu2149.c */,
+				782001871D31B03F00D0FE67 /* emu2149.h */,
+				782001831D2EEB0000D0FE67 /* ym2149Synth.h */,
+				782001841D2EEB0000D0FE67 /* ym2149Synth.m */,
 				1A7643F61D2E54F5007A7FFB /* CAOutputUnit.h */,
 				1A7643F71D2E54F5007A7FFB /* CAOutputUnit.m */,
 				1A7643F51D2E54D0007A7FFB /* emutypes.h */,
-				1A7643F11D2E549E007A7FFB /* emu2149.c */,
-				1A7643F21D2E549E007A7FFB /* emu2149.h */,
 			);
-			name = ym2149;
+			name = ym2149Synth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,11 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782001851D2EEB0000D0FE67 /* ym2149Synth.m in Sources */,
 				1A7643E51D2E5472007A7FFB /* main.m in Sources */,
 				1A7643E21D2E5472007A7FFB /* AppDelegate.m in Sources */,
 				1A7643F81D2E54F5007A7FFB /* CAOutputUnit.m in Sources */,
-				1A7644011D2E55C6007A7FFB /* ym2149.m in Sources */,
-				1A7643F31D2E549E007A7FFB /* emu2149.c in Sources */,
+				782001881D31B03F00D0FE67 /* emu2149.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +312,7 @@
 				1A7643F01D2E5472007A7FFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

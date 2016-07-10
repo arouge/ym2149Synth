@@ -1,5 +1,6 @@
 #import <Cocoa/Cocoa.h>
 #import "CAOutputUnit.h"
+//#import "emu2212.h"
 #import "emu2149.h"
 
 @interface ym2149Synth : NSObject
@@ -9,11 +10,13 @@
     CAOutputUnit *m_OutputUnit;
     AudioStreamBasicDescription myAudioProperty;
     ComponentResult	returnedValue;
-
+    
     PSG *psgChip;
-    short psgBuffer[2][16];
-    short position;
-    short bufferSize;
+    
+    short psgBuffer[2][44100];
+    int position;
+    int bufferSize;
+    int sampleRate;
 }
 
 
